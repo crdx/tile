@@ -332,7 +332,7 @@ Puzzle.prototype.checkWin = function()
     tile.style.backgroundImage = "url(" + this.settings.imageUrl + ")";
     alert("You win!");
 
-    // hide it again and shuffle
+    // hide it again
     tile.style.backgroundImage = "";
 }
 
