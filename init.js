@@ -12,11 +12,7 @@ var defaults = {
 
     // non-user-configurable
     vOffset:     50, // offset from the top
-    hOffset:     10, // offset from the left
-    imageWidth:  0,
-    imageHeight: 0,
-    tileWidth:   0,
-    tileHeight:  0
+    hOffset:     10 // offset from the left
 };
 
 var elements = {

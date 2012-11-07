@@ -42,7 +42,7 @@ function Puzzle(settings)
 
     this.addEventHandlers();
 
-    if (this.settings.imageUrl && (this.settings.imageWidth === 0 || this.settings.imageHeight === 0))
+    if (this.settings.imageUrl)
     {
         var image = new Image();
         image.src = this.settings.imageUrl;
