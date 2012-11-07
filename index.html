@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tile</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <div id="questions">
+        <label for="imageUrl">Image (URL): </label><input type="text" id="imageUrl" />
+        <label for="gridWidth">Width: </label><input type="text" id="gridWidth" />
+        <label for="gridHeight">Height: </label><input type="text" id="gridHeight" />
+        <label for="borderSize">Border (px): </label><input type="text" id="borderSize" />
+        <input type="checkbox" id="numbers" /> <label for="numbers">Numbers</label>
+        <input type="checkbox" id="animated" /> <label for="animated">Animated</label>
+        <input type="submit" id="submit" value="Go" />
+        <input type="button" id="toggleShuffle" value="Shuffle" />
+    </div>
+
+    <div id="puzzle"></div>
+
+    <script type="text/javascript" src="game.js"></script>
+    <script type="text/javascript" src="init.js"></script>
+</body>
+</html>
