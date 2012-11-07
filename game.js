@@ -42,8 +42,8 @@ function Puzzle(settings)
 
     this.addEventHandlers();
 
-    if (!this.settings.numbers && (settings.imageUrl === "" || typeof settings.imageUrl === "undefined"))
-        settings.numbers = true;
+    if (this.settings.numbers === "false" && (settings.imageUrl === "" || typeof settings.imageUrl === "undefined"))
+        settings.numbers = "true";
 
     if (this.settings.imageUrl && (this.settings.imageWidth === 0 || this.settings.imageHeight === 0))
     {
@@ -151,7 +151,7 @@ Puzzle.prototype.generateTiles = function()
                 div.style.backgroundRepeat     = "no-repeat";
             }
 
-            if (this.settings.imageUrl && this.settings.numbers)
+            if (this.settings.imageUrl && this.settings.numbers === "true")
                 div.style.color = "#f00";
 
             div.id = "tile" + id;
