@@ -330,11 +330,10 @@ Puzzle.prototype.checkWin = function()
     var tile = document.getElementById('tile' + this.settings.gridWidth * this.settings.gridHeight);
 
     tile.style.backgroundImage = "url(" + this.settings.imageUrl + ")";
-    alert("You win! Let's see you do that again.");
+    alert("You win!");
 
     // hide it again and shuffle
     tile.style.backgroundImage = "";
-    this.startShuffle();
 }
 
 Puzzle.prototype.getTileIdByXY = function(x, y)
