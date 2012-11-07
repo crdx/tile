@@ -42,9 +42,6 @@ function Puzzle(settings)
 
     this.addEventHandlers();
 
-    if (this.settings.numbers === "false" && (settings.imageUrl === "" || typeof settings.imageUrl === "undefined"))
-        settings.numbers = "true";
-
     if (this.settings.imageUrl && (this.settings.imageWidth === 0 || this.settings.imageHeight === 0))
     {
         var image = new Image();
