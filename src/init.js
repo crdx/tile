@@ -5,7 +5,7 @@ var defaults = {
     // user-configurable
     gridWidth:   "4",
     gridHeight:  "4",
-    imageUrl:    "cat.jpg",
+    imageUrl:    "static/cat.jpg",
     numbers:     "false",
     animated:    "true",
     borderSize:  "1",
