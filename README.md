@@ -4,8 +4,6 @@
 
 It was written as part of a University assignment quite a long time ago.
 
-## Demo
-
 [You can try it here](http://crdx.github.com/Tile).
 
 ## Bugs or contributions
