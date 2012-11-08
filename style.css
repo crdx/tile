@@ -3,12 +3,6 @@
     padding: 0;
 }
 
-.tile, .blanktile {
-    position: absolute;
-    display: inline;
-    cursor: pointer;
-}
-
 .tile {
     background-color: #fee;
     font-size: 25px;
@@ -16,29 +10,21 @@
     color: #000;
 }
 
+.tile, .blanktile {
+    position: absolute;
+    display: inline;
+    cursor: pointer;
+}
+
 body {
     font: 12px Verdana;
     background-color: black;
 }
 
-a, a:hover {
-    color: blue;
-}
-
-a {
-    text-decoration: none;
-
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-#questions {
+#options {
     background-color: #ddd;
     padding: 5px;
     border-bottom: 1px solid black;
-    /*height: 25px;*/
 }
 
 input[type="submit"], input[type="button"] {
