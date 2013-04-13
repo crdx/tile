@@ -16,4 +16,4 @@ Open an [issue](http://github.com/crdx/Tile/issues) or send a [pull request](htt
 
 ## Licence
 
-[MIT](https://github.com/crdx/Tile/blob/master/LICENCE.md).
+[MIT](LICENCE.md).
