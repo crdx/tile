@@ -2,7 +2,7 @@
 
 **Tile** is a game written in plain JavaScript.
 
-It was written as part of a University assignment a while ago.
+It was written as part of a University assignment a long long time ago.
 
 [You can try it here](https://crdx.github.io/tile). 
 
