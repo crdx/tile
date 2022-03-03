@@ -10,7 +10,7 @@ It was written as part of a University assignment a long long time ago.
 * The Image URL can be any image, relative or absolute. [Like this](https://crdx.github.io/tile/?gridWidth=8&gridHeight=8&imageUrl=https://raw.github.com/crdx/tile/master/static/thing.jpg).
 * [An animated GIF works, too](https://crdx.github.io/tile/?gridWidth=8&imageUrl=https://raw.github.com/crdx/tile/master/static/anim.gif).
 
-## Bugs or contributions
+## Contributions
 
 Open an [issue](https://github.com/crdx/tile/issues) or send a [pull request](https://github.com/crdx/tile/pulls).
 
